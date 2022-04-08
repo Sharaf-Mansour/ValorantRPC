@@ -3,7 +3,9 @@
 
 A better discord rich presence for VALORANT game!
 
+## Screenshot
 
+![App Screenshot](https://l.top4top.io/p_2289jvcy92.png)
 
 ## FAQ
 
@@ -37,8 +39,4 @@ Credits for r/Odeuo for the clean VALORANT icons:
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
-## Screenshots
-
-![App Screenshot](https://l.top4top.io/p_2289jvcy92.png)
 
