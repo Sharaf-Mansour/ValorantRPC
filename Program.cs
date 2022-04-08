@@ -50,7 +50,8 @@
     }
     private void PrintLogo()
     {
-        Console.WriteLine($@" __      __     _        _____  _____   _____ 
+        Console.WriteLine($@"
+ __      __     _        _____  _____   _____ 
  \ \    / /\   | |      |  __ \|  __ \ / ____|
   \ \  / /  \  | |      | |__) | |__) | |     
    \ \/ / /\ \ | |      |  _  /|  ___/| |     
@@ -92,7 +93,6 @@
                 };
                 Client?.Invoke();
                 Presence = UserPresence.GetPresence().presences[0];
-
                 if (Presence is not null)
                     if (!string.IsNullOrWhiteSpace(Presence.privinfo.matchMap))
                         (MapName, GameMode) = (Presence.privinfo.matchMap, Presence.privinfo.queueId);
