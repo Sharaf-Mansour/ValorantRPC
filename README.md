@@ -1,7 +1,7 @@
 
 # VALORANT RPC
 
-A better discord rich presence for VALORANT game!
+A better discord rich presence for VALORANT game! (currently outdated)
 
 ## Screenshot
 
