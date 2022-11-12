@@ -15,7 +15,7 @@
     {
         Console.Title = "VALORANT Discord RPC - by CruSheR#2015";
         PrintLogo();
-        Console.WriteLine("Checking If Valorant is Running...", Color.DarkRed);
+        Console.WriteLine("Checking If Valorant is Running....", Color.DarkRed);
         await Task.Delay(1500);
         if (IsNotValorantRunning)
         {
