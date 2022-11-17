@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValorantDRPC"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="ValorantDRPC.MainWindow"
+        mc:Ignorable="d"
+        Title="Valorant Discord Rich Presence - CruSheR#2015" Height="188" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#FF181219" SizeToContent="WidthAndHeight" Loaded="Window_Loaded" Icon="/shpmpl91zk761.png">
+    <Grid>
+        <ui:ToggleSwitch x:Name="toggleApp" Content="Enable Application" Margin="11,10,0,0" VerticalAlignment="Top" Height="44" Width="189" Checked="toggleApp_Checked" Click="toggleApp_Click" FontFamily="Bahnschrift"/>
+        <ui:ToggleSwitch x:Name="launchOS" Content="Launch on Startup" Margin="11,42,0,0" VerticalAlignment="Top" Height="32" Width="184" FontFamily="Bahnschrift" Checked="launchOS_Checked"/>
+        <TextBox x:Name="statusBox" HorizontalAlignment="Left" Margin="224,15,0,0" TextWrapping="Wrap" Text="Status: Disabled" VerticalAlignment="Top" Width="166" TextChanged="TextBox_TextChanged" IsEnabled="False" FontFamily="Bahnschrift"/>
+        <TextBox x:Name="DiscordName" HorizontalAlignment="Left" Margin="224,55,0,0" TextWrapping="Wrap" Text="Discord: CruSheR#2015" VerticalAlignment="Top" Width="166" TextChanged="TextBox_TextChanged" IsEnabled="False" Height="71" FontFamily="Bahnschrift"/>
+        <ui:Button Content="Github" Margin="11,90,0,0" VerticalAlignment="Top" Width="64" FontSize="11" Click="Button_Click_2" FontFamily="Bahnschrift"/>
+    </Grid>
+</Window>
