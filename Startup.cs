@@ -45,8 +45,8 @@ namespace ValorantDRPC
                 isAdmin = false;
             }
             catch (Exception ex)
-            {
-                isAdmin = false;
+            {             
+                throw ex;
             }
             return isAdmin;
         }
